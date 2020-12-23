@@ -1,0 +1,5 @@
+<setting>
+    <tag load="mofron-comp-linktxt">Link</tag>
+</setting>
+
+<Link url="https://mofron.github.io/mofron/">Link Text</Link>
