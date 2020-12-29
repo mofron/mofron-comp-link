@@ -1,4 +1,4 @@
-# mofron-comp-linktxt
+# mofron-comp-link
 [mofron](https://mofron.github.io/mofron/) is module based frontend framework.
 
 link text component for mofron
