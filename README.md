@@ -14,7 +14,7 @@ npm install mofron mofron-comp-linktxt
 # Sample
 ```html
 <setting>
-    <tag load="mofron-comp-linktxt">Link</tag>
+    <tag load="mofron-comp-link">Link</tag>
 </setting>
 
 <Link url="https://mofron.github.io/mofron/">Link Text</Link>
