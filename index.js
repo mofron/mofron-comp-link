@@ -43,7 +43,7 @@ module.exports = class extends Text {
 	    super.initDomConts();
 	    let pvt = { private:true };
             this.event(new Link({ tag: "Link" }), pvt);
-            this.color("#0073bb", pvt);
+            this.mainColor("#0073bb", pvt);
         } catch (e) {
             console.error(e.stack);
             throw e;
