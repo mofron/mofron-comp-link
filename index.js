@@ -61,7 +61,8 @@ module.exports = class extends Text {
     url (prm, flg) {
         try {
 	    let tgt = { modname: "Link", tag: "Link" };
-	    return this.event(tgt).url(prm, flg);
+	    this.event(tgt).newtab(flg);
+	    return this.event(tgt).url(prm);
 	} catch (e) {
             console.error(e.stack);
             throw e;
